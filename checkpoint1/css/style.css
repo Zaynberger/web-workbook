@@ -14,12 +14,14 @@ body {
   background-color: darkKhaki;
 }
 .nav-wrapper {  /*Background for my nav bar*/
-  float: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1200px;
-  margin-top: -66px;
+  margin: 0 auto;
+  margin-top: -12px;
   padding: 10px 0;
   background: lightgrey;
-  margin-left: 67px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 
@@ -59,14 +61,20 @@ border-left:2px solid #815444;
 }
 .article {
   width: 800px;
-  height: 100px;
-  font-family: times;
+  height: 150px;
+  font-family: sans-serif;
+  font-size: 30px;
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
+  margin-top: 30px;
   margin: 0 auto;
-  background-color: lightGrey;
+  background-color: lightgreen;
   border-radius: 30px;
+}
+h3 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 30px;
 }
 .footer {
   position: absolute;
