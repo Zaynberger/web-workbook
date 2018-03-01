@@ -1,76 +1,64 @@
+
+
 h1 {
   color: black;
-  font-family: 'Dynalight', cursive; /* Places the font used from google fonts into my page*/
-  font-size: 80px;
-  text-align: center;
-  margin-top: 415px;
+  font-size: 100px;
+  font-family: lobster;
 }
-body {
-  background-image: url(https://abasto.com/wp-content/uploads/2017/04/delicatessen.jpg); /*Sets the image I chose as my bacvkground image*/
+p {
+  font-family: lobster;
+  font-size: 30px;
+  position: absolute;
+  left: 600px;
+}
+#imagecontainer {
+  background-image:url("bagel.jpg"); opacity: 0.8;
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: top;
-  background-size: 1200px 500px;
-  background-color: darkKhaki;
+  background-size: cover;
+  width: auto;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
-.nav-wrapper {  /*Background for my nav bar*/
-  float: center;
-  width: 1200px;
-  margin-top: -66px;
-  padding: 10px 0;
-  background: lightgrey;
-  margin-left: 67px;
+#navbarcontainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  background-color: slateg;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 50%;
+  background-color: Cadetblue;
+  font-family: 'Lobster Two';
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 
 }
-ul.nav {
-  display: flex;
-  justify-content: space-around;
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.missionstatement {
   font-family: sans-serif;
-  font-size: 14px;
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
-  width: auto;
-  overflow: auto;
-}
-ul.nav li a {  /* Affects the contents with the nav bar */
-text-decoration: none;
-display: block;
-padding:10px 21px;
-background: Brown;
-color: white;
-float: left;
-text-align:center;
-border-top:2px solid #990000;
-border-right:2px solid #ff6666;
-border-bottom:2px solid #ff6666;
-border-left:2px solid #990000;
-}
-
-ul.nav li a:hover { /*Changes the nav bar links when Ihover over them*/
-background: slateGrey;
-color: white;
-border-top:2px solid #815444;
-border-right:2px solid #c59888;
-border-bottom:2px solid #c59888;
-border-left:2px solid #815444;
-}
-.article {
-  width: 800px;
-  height: 100px;
-  font-family: times;
+  display: flex;
+  justify-content: flex-start;
   text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
-  background-color: lightGrey;
-  border-radius: 30px;
+  margin-left: 400px;
+  margin-right: 400px;
 }
-.footer {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0px;
+a:hover {
+  background-color: lightsteelblue;
+
 }
