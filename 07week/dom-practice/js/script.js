@@ -13,7 +13,7 @@ window.onload=function() {
     return "This page has "+ list[0].children.length + " Items in the shopping cart";
   }
   function createListCountHeaderElement(message){
-    let listHeading= document.createElement("h2");
+    let listHeading = document.createElement("h2");
     document.getElementsByTagName("h1")[0].appendChild(listHeading);
     listHeading.setAttribute("id", "list-heading");
   }
