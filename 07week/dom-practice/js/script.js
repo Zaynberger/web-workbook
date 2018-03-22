@@ -1,3 +1,4 @@
+<<<<<<< current
 'use strict';
 
 window.onload=function() {
@@ -17,3 +18,10 @@ window.onload=function() {
     document.getElementsByTagName("h1")[0].appendChild(listHeading);
     listHeading.setAttribute("id", "list-heading");
   }
+=======
+'use strict';
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    // You code here
+});
+>>>>>>> before discard
