@@ -19,18 +19,22 @@ $(document).ready(function(){
     if($('[data-cell = "0"]').text() === turn &&
       $('[data-cell = "3"]').text() === turn &&
       $('[data-cell = "6"]').text() === turn) {
-        alert( 'Player ${turn} wins!');
-      }
+        alert( `Player ${turn} wins!`);
+      }else if($('[data-cell = "1"]').text() === turn &&
+        $('[data-cell = "4"]').text() === turn &&
+        $('[data-cell = "7"]').text() === turn){
+          alert( `Player ${turn} wins!`);
+      }else if($('[data-cell = "2"]').text() === turn &&
+        $('[data-cell = "5"]').text() === turn &&
+        $('[data-cell = "8"]').text() === turn){
+          alert( `Player ${turn} wins!`);
+        }
   }
-  function wins() {
-    if($('[data-cell = "1"]').text() === turn &&
-      $('[data-cell = "4"]').text() === turn &&
-      $('[data-cell = "7"]').text() === turn) {
-        alert( 'Player ${turn} wins!');
-      }
-  }
-  function wins() {
-    if($('[data-cell = "2"]').text() === turn &&
+
+
+
+   function wins() {
+     if($('[data-cell = "2"]').text() === turn &&
       $('[data-cell = "5"]').text() === turn &&
       $('[data-cell = "8"]').text() === turn) {
         alert( 'Player ${turn} wins!');
@@ -72,6 +76,6 @@ $(document).ready(function(){
       }
   }
   $('#clear').on('click', function(){
-    
+
   })
 });
